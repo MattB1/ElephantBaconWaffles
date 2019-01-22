@@ -6,20 +6,18 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-#navJumbo {
-  /* background-color: #fbeec1; */
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
-}
-
 .nav-item {
   padding-right: 0.5rem;
   font-family: "Source Serif Pro", serif;
 }
 
+#navJumbo {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
 .jumbotron-fluid {
   color: black;
   min-height: 92vh;
-  /* background-color: #fbeec1; */
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 
@@ -27,6 +25,10 @@ body {
   font-family: "Acme", sans-serif;
   font-size: 3rem;
   text-shadow: 3px 3px lightgray;
+}
+
+#jumbo {
+  padding-top: 25vh;
 }
 
 .card-body.phil {
@@ -39,10 +41,6 @@ body {
   height: 15vw;
   min-height: 15vh;
   object-fit: cover;
-}
-
-#jumbo {
-  padding-top: 25vh;
 }
 
 #margin-bot {
@@ -113,4 +111,16 @@ body {
 .card.blog:hover::after,
 .card.blog:focus::after {
   opacity: 1;
+}
+
+@media all and (max-width: 700px) {
+  .jumbotron {
+    height: 110vh;
+  }
+  #fullHeight {
+    padding-top: 5vh;
+  }
+  #jumbo {
+    padding-top: 5vh;
+  }
 }
