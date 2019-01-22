@@ -91,11 +91,6 @@ body {
   text-shadow: 3px 3px lightgray;
 }
 
-/* #waffleButton {
-  background-color: white;
-  color: black;
-} */
-
 .card.blog {
   transition: transform 0.5s;
 }
