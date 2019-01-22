@@ -7,7 +7,8 @@ body {
 }
 
 #navJumbo {
-  background-color: lightgray;
+  /* background-color: #fbeec1; */
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 
 .nav-item {
@@ -18,7 +19,14 @@ body {
 .jumbotron-fluid {
   color: black;
   min-height: 92vh;
-  background-color: lightgray;
+  /* background-color: #fbeec1; */
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+#title {
+  font-family: "Acme", sans-serif;
+  font-size: 3rem;
+  text-shadow: 3px 3px lightgray;
 }
 
 .card-body.phil {
@@ -74,9 +82,19 @@ body {
 }
 
 .jumbotron.second {
-  background-color: whitesmoke;
+  background-color: #fbeec1;
   color: black;
 }
+
+.display-4.bright {
+  font-family: "Abril Fatface", cursive;
+  text-shadow: 3px 3px lightgray;
+}
+
+/* #waffleButton {
+  background-color: white;
+  color: black;
+} */
 
 .card.blog {
   transition: transform 0.5s;
